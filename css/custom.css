@@ -1,0 +1,113 @@
+/* your styles go here */
+#particles-js {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  #overlay {
+    position: relative;
+  }
+.sub-title{
+  color: white;
+}
+.section-title h3::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+.container{
+  padding-bottom: 15px;
+}
+
+/* Project lightbox*/
+
+.container-project {
+  background:  rgb(20, 19, 19);
+  min-height: 100vh;
+  border-radius: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+#projects-masonry {
+  padding: 40px;
+}
+
+#projects-masonry .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+#projects-masonry .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+#projects-masonry img {
+  border-radius: 4px;
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+  body {
+      padding: 0;
+  }
+
+  .container-project {
+      border-radius: 0;
+  }
+}
+
+/* Blockquote header */
+.blockquote h1 {
+  font-family: 'Abril Fatface', cursive;
+  position: relative; /* for pseudos */
+  color: #e74848;
+  font-size: 6rem;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* Blockquote subheader */
+.blockquote h4 {
+  position: relative;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+ 
+
+/* certificate lightbox*/
+#certificate-masonry {
+  padding: 40px;
+}
+
+#certificate-masonry .lightbox img {
+  width: 100%;
+  margin-bottom: 30px;
+  transition: 0.2s ease-in-out;
+  box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+#certificate-masonry .lightbox img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+#certificate-masonry img {
+  border-radius: 4px;
+}
